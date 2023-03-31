@@ -1,3 +1,4 @@
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import {store} from '../store/store';
 
 //Reducers Types
@@ -8,5 +9,7 @@ export type DispatchType = typeof store.dispatch;
 export type RootStackParamList = {
   HOME: undefined;
   PROFILE: undefined;
+  SPLASH: undefined;
   VIEWPRODUCT: undefined;
 };
+export type Props = NativeStackScreenProps<RootStackParamList>;
