@@ -13,11 +13,11 @@ export default function SplashScreen({navigation}: Props) {
   }, []);
   return (
     <>
-      <StatusBar barStyle="light-content" backgroundColor="#fff" />
+      <StatusBar barStyle="light-content" backgroundColor="#313131" />
       <View
         style={{
           flex: 1,
-          backgroundColor: '#fff',
+          backgroundColor: '#313131',
           justifyContent: 'center',
           alignItems: 'center',
         }}>
